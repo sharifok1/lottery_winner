@@ -1,0 +1,38 @@
+.winner-card{
+    border:1px solid greenyellow;
+    min-width:200px;
+    text-align: center;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    padding:20px;
+    background-image: linear-gradient(to bottom ,#fff,#aaa); 
+    box-shadow: 0 0 5px 2px rgb(48, 58, 33);
+}
+.winner-card:hover{
+    background-image: linear-gradient(to top ,#fff,#aaa);  
+}
+.img-container{
+    text-align: center;
+}
+.photo-style{
+    height: 110px;
+    width:110px;
+    border: 2px solid brown;
+    border-radius: 50%;
+}
+.btn-style{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to bottom ,#917d7d,#c0bcbc); 
+    color:black;
+    font-weight: 550;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-style:hover{
+    background-image: linear-gradient(to top ,#917d7d,#c0bcbc); 
+}
+.prize-amount{
+    color: #01750b;
+}
