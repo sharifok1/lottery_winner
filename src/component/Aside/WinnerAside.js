@@ -12,8 +12,8 @@ const WinnerAside = (props) => {
 
     
     return (
-        <div>
-           <div>
+        <div className="aside">
+           <div className="asid-style">
                <h4>Select Winner:{pickWinner.length}</h4>
                <h4>Total Prize:${totalValue}</h4>
             </div>

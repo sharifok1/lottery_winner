@@ -1,0 +1,22 @@
+.picked-winner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: indianred;
+    height:70px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px .5px black;
+}
+.winner-photo{
+    height:70px;
+    width: 80px;
+}
+.btn-cross{
+    margin-left: 5px;
+    background-color:ghostwhite;
+    border-radius: 5px;
+}
+.btn-cross:hover{
+    background-color: #f14b4b;
+}
