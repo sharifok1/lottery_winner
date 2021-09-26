@@ -1,15 +1,19 @@
 .winner-card{
-    border:1px solid greenyellow;
+    border:1px solid rgb(238, 79, 172);
+    border-radius: 10px;
     min-width:200px;
     text-align: center;
     margin-top:10px ;
     margin-bottom: 10px;
     padding:20px;
-    background-image: linear-gradient(to bottom ,#fff,#aaa); 
+    background-image: linear-gradient(to bottom ,#88bff1,#aaa); 
     box-shadow: 0 0 5px 2px rgb(48, 58, 33);
+    transition: .5s;
 }
+/* card hover style--------------------------------------------- */
 .winner-card:hover{
-    background-image: linear-gradient(to top ,#fff,#aaa);  
+    background-image: linear-gradient(to top ,#9e9595,#f7c7c7d2);
+    transform: scale(1.05);  
 }
 .img-container{
     text-align: center;
@@ -20,6 +24,7 @@
     border: 2px solid brown;
     border-radius: 50%;
 }
+/*---------- card btn -----------------------------------------*/
 .btn-style{
     padding: 5px;
     padding-left: 10px;

@@ -13,7 +13,7 @@ const Winner = () => {
     },[])
 
 
-    // btn handler setup------------------------//
+    // btn handler pass function ------------------------//
     const handlarAddBtn=(winner)=>{
         const newWinner = [...pickWinner,winner];
         setPicWinner(newWinner);
@@ -32,6 +32,7 @@ const Winner = () => {
                 ></WinnerCard>)
             }
             </div>
+            {/* aside for adding total and picked winner-------------------------------- */}
             <div className="aside-style">
                 <WinnerAside pickWinner={pickWinner}  ></WinnerAside>
             </div>

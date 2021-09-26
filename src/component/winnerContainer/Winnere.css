@@ -1,6 +1,7 @@
 .display-container{
     display: grid;
 grid-template-columns: 3fr 1fr;
+background-image: linear-gradient(to left,#ef9cf1, #c7d6f3);
 }
 .card-container{
     display: grid;

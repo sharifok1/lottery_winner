@@ -1,6 +1,33 @@
-.header-style{
-    padding:10px;
-    text-align: center;
+.header-container{
     background-color: rgb(65, 83, 77);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:10px;
+    padding-bottom: 50px;
+}
+.header-style{
+    box-shadow: 0 0 5px 1px gray;
+    border-radius: 10px;
+    background-color: #2b523b;
+    padding:10px;
     color:#ee9f54;
+    margin: 10px;
+    line-height: .9;
+    max-width:400px ;
+}
+.banner{
+    position: relative;
+    width:200px;
+    transition: 1s;
+    overflow: hidden; 
+}
+.header-container h1{
+    text-align: center;
+ color:#ad9999;
+}
+
+.header-container:hover .banner{
+transform: scale(1.5) rotate(-5deg);
+
 }
